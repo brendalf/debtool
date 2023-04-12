@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "package_statistics"
+version = "0.1.0"
+description = "Show statistics for deb packages"
+authors = ["Breno Silva <brenophp@gmail.com>"]
+readme = "README.md"
+packages = [{include = "package_statistics"}]
+
+[tool.poetry.scripts]
+package_statistics = 'package_statistics.main:main'
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+black = "^23.3.0"
+bandit = "^1.7.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
