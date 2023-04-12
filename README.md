@@ -46,17 +46,17 @@ python package_statistics/main.py amd64
 Results:
 
 ```bash
-package name                                                                    number of files
-devel/piglit                                                                    51784
-science/esys-particle                                                           18015
-libdevel/libboost1.74-dev                                                       14332
-math/acl2-books                                                                 12668
-golang/golang-1.15-src                                                          9015
-libdevel/liboce-modeling-dev                                                    7457
-net/zoneminder                                                                  7002
-libdevel/paraview-dev                                                           6178
-kernel/linux-headers-5.10.0-20-amd64                                            6162
-kernel/linux-headers-5.10.0-18-amd64                                            6156
+package name                                                    number of files
+devel/piglit                                                    51784
+science/esys-particle                                           18015
+libdevel/libboost1.74-dev                                       14332
+math/acl2-books                                                 12668
+golang/golang-1.15-src                                          9015
+libdevel/liboce-modeling-dev                                    7457
+net/zoneminder                                                  7002
+libdevel/paraview-dev                                           6178
+kernel/linux-headers-5.10.0-20-amd64                            6162
+kernel/linux-headers-5.10.0-18-amd64                            6156
 ```
 
 ## Development
